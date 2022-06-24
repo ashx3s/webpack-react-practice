@@ -1,0 +1,12 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "- [Follows the webpack getting started guide](https://webpack.js.org/guides/getting-started/) - **Objectives**:  \t- Review and refresh on working specifically with webpack 5. \t- Set up a frontend project by using webpack 5 instead of default scaffolding \t- Along with refreshing on webpack, review using react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
