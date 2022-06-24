@@ -1,10 +1,8 @@
-function demoComponent() {
-  const el = document.createElement('div');
-
-  el.innerHTML = _.join(['Hello', 'webpack'], ' ');
-
-  return el;
+import React from "react"
+import ReactDOM from "react-dom"
+class Welcome extends React.Component {
+  render() {
+    return <h1>Hello React</h1>
+  }
 }
-
-// Add html to the page by appending the abovecreated component
-document.body.appendChild(demoComponent())
+ReactDOM.render(<Welcome />, document.getElementById("root"))
