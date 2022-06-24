@@ -16,3 +16,4 @@
 - [Webpack Core Concepts](https://webpack.js.org/concepts/)
 - [Webpack Getting Started Guide](https://webpack.js.org/guides/getting-started/)
 - [FreeCodeCamp Webpack + React Tutorial](https://www.freecodecamp.org/news/how-to-set-up-deploy-your-react-app-from-scratch-using-webpack-and-babel-a669891033d4/)
+- [React Pure Functions](https://blog.logrocket.com/what-are-react-pure-functional-components/#:~:text=A%20React%20component%20is%20considered,are%20treated%20as%20pure%20components.)
