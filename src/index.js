@@ -1,8 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-class Welcome extends React.Component {
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './assets/style/main.css'
+class Welcome extends React.PureComponent {
   render() {
-    return <h1>Hello React</h1>
+    const msg = "Hello React"
+    return (
+      <header>
+        <h1>{ msg }</h1>
+      </header>
+    );
   }
 }
-ReactDOM.render(<Welcome />, document.getElementById('root'))
+ReactDOM.render(<Welcome />, document.getElementById('root'));
