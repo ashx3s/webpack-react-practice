@@ -7,5 +7,5 @@
 	- Along with refreshing on webpack, review using react
 
 ## Notes
-
+- it's important to use common js syntax in the `webpack.config.js` as it's not a module and doesn't recognize esm syntax (this would require an experimental flag and I believe the use of babel or some other transpiler)
 ### Issues
